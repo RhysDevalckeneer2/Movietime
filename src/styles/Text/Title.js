@@ -5,8 +5,10 @@ import { StyleSheet } from "react-native";
 // Import Colors
 import Colors from "../../themes/Colors";
 
+
 const styles = StyleSheet.create({
     title: {
+      fontFamily: 'SF-Pro-Text-Bold',
       fontSize: 30,
       fontWeight: '800',
       color: Colors.black
